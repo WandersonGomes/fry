@@ -27,9 +27,9 @@ int main() {
         printf("Informe a distancia da ponta do bambu ate sua base: ");
         scanf("%lf", &distancia_ponta_bambu);
         //error
-        if (distancia_ponta_bambu <= 0.00)
+        if ((distancia_ponta_bambu <= 0.00) || (distancia_ponta_bambu > altura_bambu))
             printf("Error: distancia invalida! Tente novamente.\n");
-    } while (distancia_ponta_bambu <= 0.00);
+    } while ((distancia_ponta_bambu <= 0.00) || (distancia_ponta_bambu > altura_bambu));
 
     //processamento
     altura_quebra = (-(distancia_ponta_bambu * distancia_ponta_bambu) + (altura_bambu * altura_bambu))/(2 * altura_bambu);
