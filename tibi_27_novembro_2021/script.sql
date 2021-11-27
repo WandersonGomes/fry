@@ -32,8 +32,6 @@ WITH tmp_nomeDocenteQtdMeses AS (
     FROM
         docente
 )
-;
-
 -- resolucao do problema, nome, qtd_anos e qtd_meses
 SELECT 
     nome, 
