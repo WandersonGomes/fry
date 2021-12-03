@@ -1,0 +1,27 @@
+-- this is an example
+group: questao09 
+
+Atores = {
+	Codigo:number, Nome:string
+	1, "Ator 1"
+	2, "Monica Belucci"
+	3, "Ator 3"
+}
+
+Filmes = {
+	Codigo:number, Nome:string, Genero:String
+	1, "Filme 1", "Genero 1"
+	2, "Filme 2", "Genero 2"
+	3, "Filme 3", "Genero 3"
+}
+
+AtoresEmFilmes = {
+	CodFilme:number, CodAtor:number
+	1, 1
+	1, 2
+	1, 3
+	2, 1
+	2, 2
+	3, 1
+	3, 3
+}
